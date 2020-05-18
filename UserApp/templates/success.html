@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <p>User : <b>{{ user.username }}</b> is looged in</p>
+    <form action="/logout/" class="col-md-7" method="POST">
+        {% csrf_token %}
+
+
+        <button type="submit" class="btn btn-primary">Logout</button>
+    </form>
+{% endblock content %}

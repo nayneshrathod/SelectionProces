@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>9a537420-6e58-4f04-9650-f044f7242732</OriginalElement>
+  <nodes>
+    <node x="159.5" y="627.0">9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.auth_group</node>
+    <node x="894.0" y="1082.0">9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.sqlite_master</node>
+    <node x="260.0" y="1054.5">9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.django_session</node>
+    <node x="702.0" y="314.5">9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.auth_user</node>
+    <node x="599.5" y="1082.0">9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.django_migrations</node>
+    <node x="-39.5" y="-8.0">9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.django_admin_log</node>
+    <node x="-16.0" y="814.5">9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.django_content_type</node>
+    <node x="165.5" y="414.5">9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.auth_user_groups</node>
+    <node x="-8.5" y="1057.0">9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.ProductApp_product</node>
+    <node x="693.0" y="814.5">9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.auth_user_user_permissions</node>
+    <node x="417.0" y="802.0">9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.auth_permission</node>
+    <node x="1130.0" y="1079.5">9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.sqlite_sequence</node>
+    <node x="1005.4081081081081" y="747.4864864864865">9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.UserApp_user</node>
+    <node x="427.0" y="614.5">9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.auth_group_permissions</node>
+    <node x="1006.8621621621619" y="150.48018018018018">9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.UserApp_post</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.django_admin_log" target="9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.auth_user">
+      <point x="119.5" y="-0.0" />
+      <point x="800.0" y="120.0" />
+      <point x="0.0" y="-165.5" />
+    </edge>
+    <edge source="9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.auth_user_user_permissions" target="9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.auth_user">
+      <point x="0.0" y="-65.5" />
+      <point x="0.0" y="165.5" />
+    </edge>
+    <edge source="9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.auth_user_groups" target="9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.auth_user">
+      <point x="74.5" y="-0.0" />
+      <point x="-98.0" y="-0.0" />
+    </edge>
+    <edge source="9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.auth_group_permissions" target="9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.auth_group">
+      <point x="-93.0" y="-0.0" />
+      <point x="80.5" y="-0.0" />
+    </edge>
+    <edge source="9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.auth_user_user_permissions" target="9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.auth_permission">
+      <point x="-107.0" y="-0.0" />
+      <point x="103.0" y="-0.0" />
+    </edge>
+    <edge source="9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.django_admin_log" target="9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.django_content_type">
+      <point x="0.0" y="128.0" />
+      <point x="0.0" y="-65.5" />
+    </edge>
+    <edge source="9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.auth_group_permissions" target="9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.auth_permission">
+      <point x="0.0" y="65.5" />
+      <point x="0.0" y="-78.0" />
+    </edge>
+    <edge source="9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.UserApp_post" target="9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.UserApp_user">
+      <point x="0.0" y="90.5" />
+      <point x="0.0" y="-103.0" />
+    </edge>
+    <edge source="9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.auth_permission" target="9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.django_content_type">
+      <point x="-103.0" y="-0.0" />
+      <point x="96.0" y="-0.0" />
+    </edge>
+    <edge source="9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.auth_user_groups" target="9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.auth_group">
+      <point x="0.0" y="65.5" />
+      <point x="0.0" y="-53.0" />
+    </edge>
+  </edges>
+  <settings layout="Directed Orthogonal" zoom="0.3609022556390977" x="615.0" y="627.5" />
+  <SelectedNodes>
+    <node>9a537420-6e58-4f04-9650-f044f7242732.TABLE:main.UserApp_post</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
